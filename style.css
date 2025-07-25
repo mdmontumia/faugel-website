@@ -174,3 +174,108 @@ body{
     position: relative;
 }
 /* plant-lover css */
+/* ------latest css----- */
+.latest-part{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.latest{
+    width: 888px;
+    margin: 0 auto;
+}
+.latest-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+.latest-span{
+    color: #E95A08;
+}
+.latest-content{
+     font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.latest-bottom{
+   display: flex;
+   gap: 30px;
+   flex-direction: column;
+}
+.latest-left{
+    background-image: url(./assets/deal-bloom.png);
+    width: 360px;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.latest-middle{
+    background-image: url(./assets/deal-ana.png);
+    width: 360px;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.bottom-part{
+    margin-top: 120px;
+    display: flex;
+   justify-content: center;
+   gap: 30px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   
+   
+}
+.latest-left-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+.latest-shop{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.latest-right{
+    background-image: url(./assets/deal-zabo.png);
+    width: 753px;
+    height: 453px;
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.latest-right-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+.right-shop{
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+}
+/* ------latest css----- */
