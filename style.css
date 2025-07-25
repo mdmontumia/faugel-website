@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.lora-font-family {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.nav-navber{
+    display: flex;
+   
+}
+.nav-item{
+    display: flex;
+}
+.nav-link{
+    list-style: none;
+    margin-left: 48px;
+    
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+}
+.nav-link a:hover{
+    color: #252432;
+}
+.nav-link .active{
+    color: #252432;
+}
+.icon-bar{
+    margin-left: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* banner css */
+.banner{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: 225px;
+    margin-bottom: 100px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: #000000;
+}
+.flowers{
+    color: #E95A08;
+}
+.banner-content{
+    font-size: 22px;
+    font-weight: 740;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-img{
+    width: 100%;
+   
+}
+/* banner css */
+/* plant css */
+.our-plant{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.plant{
+    max-width: 888px;
+    margin: 0 auto;
+}
+.our{
+    color: #E95A08;
+}
+.plant-heading{
+    font-size:50px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+}
+.plant-content{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.flower-part{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flower-boxone{
+    width: 270px;
+    margin-top: 50px;
+    
+    
+
+}
+.flower-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #111111;
+    margin: 10px;
+    text-align: center;
+}
+.flower-content{
+      font-size: 22px;
+    font-weight: 500;
+    color: #111111;
+    text-align: center;
+    margin: 10px;
+}
+.flower-btn{
+    padding: 20px 80px;
+    background: red;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+/* plant css */
+/* plant-lover css */
+.plants-lover{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 210px;
+    gap: 60px;
+}
+.flower-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    text-align: start;
+}
+.flower-content{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: start;
+    margin-top: 20px;
+    
+}
+
+.flower-star{
+    font-size: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+.trusted-img{
+    width: 20%;
+    font-size: 30px;
+    position: absolute;
+    right: 45%;
+    top: -20%;
+   
+}
+.plants-part{
+    position: relative;
+}
+/* plant-lover css */
