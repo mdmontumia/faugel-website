@@ -324,3 +324,55 @@ input{
     color: #ffffff;
 }
 /* ---subscribe csss */
+/* -----footer part----------- */
+.footer{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.footer-part{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-img-content{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    width: 360px;
+}
+.footer-item li{
+    list-style: none;
+    margin-bottom: 30px;
+   
+}
+.footer-item a{
+    text-decoration: none;
+    color: #252432;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+.footer-middle li{
+      list-style: none;
+    margin-bottom: 30px;
+}
+.footer-middle a{
+    text-decoration: none;
+    color: #252432;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+.icon-footer img{
+margin-left: 20px;
+text-align: center;
+font-size: 50px;
+
+}
+.icon-footer img:hover{
+width: 50px;
+padding: 10px;
+background: blue;
+border-radius: 10px;
+}
+
+/* -----footer part----------- */
